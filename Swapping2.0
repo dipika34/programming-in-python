@@ -1,0 +1,16 @@
+m, n = input().split()
+
+temp1 = int(m)
+temp2 = int(n)
+
+print("Before swapping")
+print(temp1,temp2)
+
+temp2 = temp1 + temp2
+temp1 = temp2 - temp1
+temp2 = temp2 - temp1
+
+print("After swapping")
+print(temp1,temp2)
+using userInput
+
