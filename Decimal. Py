@@ -1,0 +1,2 @@
+
+print("The decimal value of the number is",0b101)
